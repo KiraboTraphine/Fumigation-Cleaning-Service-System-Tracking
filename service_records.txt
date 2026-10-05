@@ -1,0 +1,119 @@
+{
+    "customers": [
+        {
+            "customer_id": "C001",
+            "name": "Kirabo Traphine",
+            "phone": "0701772164",
+            "email": "kirabotraphine@gmail.com"
+        },
+        {
+            "customer_id": "C002",
+            "name": "Kisaakye Aron",
+            "phone": "0772633053",
+            "email": "kisaakyearon@gmail.com"
+        }
+    ],
+    "bookings": [
+        {
+            "booking_id": "B001",
+            "customer_id": "C001",
+            "customer_name": "Kirabo Traphine",
+            "items": [
+                {
+                    "code": "S001",
+                    "name": "Laundry",
+                    "category": "Pickup",
+                    "quantity": 2,
+                    "subtotal": 30000,
+                    "discount": 0,
+                    "total": 30000
+                },
+                {
+                    "code": "S006",
+                    "name": "3 Sofa Set Cleaning",
+                    "category": "On-Site",
+                    "quantity": 1,
+                    "subtotal": 250000,
+                    "discount": 0,
+                    "total": 250000
+                }
+            ],
+            "category": "Mixed",
+            "original_cost": 280000,
+            "discount": 0,
+            "final_cost": 280000,
+            "required_payment": 115000.0,
+            "amount_paid": 115000.0,
+            "balance": 165000.0,
+            "payment_status": "Partially Paid",
+            "address": "Kibuli",
+            "service_date": "10-4-2026",
+            "pickup_status": "Pickup Scheduled",
+            "onsite_status": "Team Assigned",
+            "rating": 0,
+            "comment": ""
+        },
+        {
+            "booking_id": "B002",
+            "customer_id": "C002",
+            "customer_name": "Kisaakye Aron",
+            "items": [
+                {
+                    "code": "S001",
+                    "name": "Laundry",
+                    "category": "Pickup",
+                    "quantity": 2,
+                    "subtotal": 30000,
+                    "discount": 0,
+                    "total": 30000
+                }
+            ],
+            "category": "Pickup",
+            "original_cost": 30000,
+            "discount": 0,
+            "final_cost": 30000,
+            "required_payment": 15000.0,
+            "amount_paid": 30000.0,
+            "balance": 0.0,
+            "payment_status": "Fully Paid",
+            "address": "Aponye",
+            "service_date": "10/5/26",
+            "pickup_status": "Completed",
+            "onsite_status": null,
+            "rating": 4,
+            "comment": "GOOD"
+        }
+    ],
+    "receipts": [
+        {
+            "receipt_id": "R001",
+            "booking_id": "B001",
+            "customer_id": "C001",
+            "customer_name": "Kirabo Traphine",
+            "payment": 115000.0,
+            "paid": 115000.0,
+            "balance": 165000.0,
+            "date": "04/10/2026 14:33"
+        },
+        {
+            "receipt_id": "R002",
+            "booking_id": "B002",
+            "customer_id": "C002",
+            "customer_name": "Kisaakye Aron",
+            "payment": 15000.0,
+            "paid": 15000.0,
+            "balance": 15000.0,
+            "date": "05/10/2026 14:25"
+        },
+        {
+            "receipt_id": "R003",
+            "booking_id": "B002",
+            "customer_id": "C002",
+            "customer_name": "Kisaakye Aron",
+            "payment": 15000.0,
+            "paid": 30000.0,
+            "balance": 0.0,
+            "date": "05/10/2026 14:28"
+        }
+    ]
+}
